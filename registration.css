@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .registration-container {
+    text-align: center;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mulah-title {
+    color: orange;
+  }
+  
+  .registration-title {
+    color: #666;
+  }
+  
+  .italic-text {
+    color: #666;
+    font-style: italic;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .birthday-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .required-message {
+    color: #ff0000;
+    font-size: 12px;
+  }
+  
+  .orange-button {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .orange-button:hover {
+    background-color: #d17f00;
+  }
+  

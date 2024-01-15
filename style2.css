@@ -1,0 +1,97 @@
+/* Set the overall page dimensions and basic styling */
+html, body {
+    width: 640px;
+    height: 1136px;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Center the image */
+img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+}
+
+/* Define a container div with a maximum width */
+.container {
+    max-width: 80%;
+    padding: 10px; /* Add padding for content within the container */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the container */
+}
+
+
+/* Style subheadings with grey text */
+h1 {
+    font-family: 'Cormorant', sans-serif;
+    color: #333;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+/* Style subheadings with orange text */
+h4 {
+    font-style: italic;
+    color: #ea8000;
+    font-size: 18px;
+}
+
+h5 {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Style orange buttons with hover effect */
+.button {
+    background-color: #ea8000;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; 
+}
+/* Stylish placeholder styles */
+input[type="number"], [type="text"], input[type="date"], input[type="email"] {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 40%;
+    color: #555;
+}
+
+input[type="text"]::placeholder,
+input[type="date"]::placeholder,
+input[type="email"]::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #ff9f4d;
+}
+

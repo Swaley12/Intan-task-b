@@ -1,0 +1,94 @@
+/* spacing */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+  html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+thead th,
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.country-code {
+  display: flex;
+  align-items: center;
+  background: #eee;
+  padding: 5px 10px;
+  border-right: 1px solid #ccc;
+}
+
+.phone-number {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.phone-number input {
+  flex-grow: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.check-icon {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  color: green;
+}
+
+/* Adjust the select dropdown styling */
+.country-code select {
+  border: none;
+  background: transparent;
+  padding: 5px;
+  margin: -5px -10px; /* to offset the padding and make the select fill the div */
+}
